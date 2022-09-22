@@ -1,0 +1,843 @@
+/*
+version:1.0.0
+author:Amirmohammad Akbarloo
+*/
+body{
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-image: url(../images/poshte-miz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 5px;
+}
+div.search{
+    width: 1500px;
+    height: 68px;
+    margin: auto;
+}
+div.logo{
+    display: inline-block;
+    width: 115px;
+    height: 68px;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+div.jostojo{
+    display: inline-block;
+    width: 40% ;
+    height:58px ;
+    background-color:lightgray;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+div.icon-1{
+    display: inline-block;
+    width: 150px;
+    height:45px ;
+    background-color: lightslategray;
+    margin-bottom:10px ;
+    border-radius: 10px;
+}
+div.menu{
+    width: 1480px;
+    height: 68px;
+    margin: auto;
+    margin-top: 20px;
+}
+div.location{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+div.foroshande{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    background-color:lightcoral;
+    border-radius: 10px;
+    margin-left:25% ;
+}
+div.soal{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    background-color: lightpink;
+    border-radius: 10px;
+}
+div.shegeftangiz-1{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+}
+div.takhfif-1{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+div.porforosh{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+div.supermarket-1{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+div.dastebandi{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    background-color: lightslategrey;
+    border-radius: 10px;
+}
+div.slider{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/slider.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.icon-2{
+    width:1330px;
+    height: 100px;
+    margin: auto; 
+    margin-bottom: 20px;
+}
+div.bishtar{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    border-radius: 60px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+div.mamoriat{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #EF4056;
+    border-radius: 60px;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+div.haraj{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #FA6A7B;
+    border-radius: 60px;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+div.madrese{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #01A2CD;
+    border-radius: 60px;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+div.mehrabani{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #00B088;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+div.digipay{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #0040FF;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+div.lottery{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+div.digikalajet{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #FF6200;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+div.pishnahad{
+    width: 1350px;
+    height: 290px ;
+    background-color:#EF394E ;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+div.shalvar{
+    display: inline-block;
+    width: 200px;
+    height: 260px;
+    background-image: url(../images/shalvar.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 15px ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+div.t-shirt{
+    display: inline-block;
+    width: 200px;
+    height: 260px;
+    background-image: url(../images/t-shirt.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 15px ;
+    margin-left: 5px;
+}
+div.saat{
+    display: inline-block;
+    width: 200px;
+    height: 260px;
+    background-image: url(../images/saat.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 15px ;
+    margin-left:5px ;
+}
+div.eynak{
+    display: inline-block;
+    width: 200px;
+    height: 260px;
+    background-image: url(../images/eynak.jpg);
+    background-size: contain;
+    background-position: center;
+    margin: 15px ;
+    margin-left:5px ;
+}
+div.kafsh{
+    display: inline-block;
+    width: 200px;
+    height: 260px;
+    background-image: url(../images/kafsh.jpg);
+    background-size: contain;
+    background-position: center;
+    margin: 15px ;
+    margin-left:5px ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.box{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-image: url(../images/box.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+    margin-left:10px ;
+}
+div.supermarket-2{
+    width: 1350px;
+    height: 100px;
+    margin: auto;
+    background-color: #EDEFED;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+div.more{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: #00B088;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+div.gosht{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background-image: url(../images/gosht.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 75px;
+    margin: 10px;
+}
+div.shampoo{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background-image: url(../images/shampoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 75px;
+    margin: 10px;
+}
+div.tootfarangi{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background-image: url(../images/tootfarangi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 75px;
+    margin: 10px;
+}
+div.kerem{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background-image: url(../images/kerem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 75px;
+    margin: 10px;
+}
+div.blueberry{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background-image: url(../images/blueberry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 75px;
+    margin: 10px;
+}
+div.tissue{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background-image: url(../images/tissue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 75px;
+    margin: 10px;
+}
+div.takhfif54{
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    background-color: #39AE00;
+    border-radius: 20px;
+    margin-bottom: 25px ;
+    margin-left: 100px;
+}
+div.text1{
+    display: inline-block;
+    width: 250px;
+    height: 35px;
+    background-color: darkgreen;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+div.sabad{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-image: url(../images/sabad.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.products{
+    width: 1350px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+div.handology{
+    display: inline-block;
+    width: 315px ;
+    height: 240px;
+    background-image: url(../images/handology.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+div.sidebyside{
+    display: inline-block;
+    width: 315px ;
+    height: 240px;
+    background-image: url(../images/sidebyside.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 24px;
+}
+div.marker{
+    display: inline-block;
+    width: 315px ;
+    height: 240px;
+    background-image: url(../images/marker.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 27px;
+}
+div.bag{
+    display: inline-block;
+    width: 315px ;
+    height: 240px;
+    background-image: url(../images/bag.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 27px;
+}
+div.label{
+    width: 1350px;
+    height: 370px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+div.mashin{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    background-image: url(../images/mashin.png);
+    background-size: cover;
+    margin-left: 50px;
+}
+div.noon{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    background-image: url(../images/noon.png);
+    background-size: cover;
+    margin-left: 50px;
+}
+div.kif{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    background-image: url(../images/kif.png);
+    background-size: cover;
+    margin-left: 50px;
+}
+div.abzar{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    background-image: url(../images/abzar.png);
+    background-size: cover;
+    margin-left: 50px;
+}
+div.headphone{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    background-image: url(../images/headphone.png);
+    background-size: cover;
+    margin-left: 50px;
+}
+div.mobile{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    background-image: url(../images/mobile.png);
+    background-size: cover;
+    margin-left: 50px;
+}
+div.pingpong{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    background-image: url(../images/pingpong.png);
+    background-size: cover;
+    margin-left: 50px;
+    margin-left: 150px;
+}
+div.ketab{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    background-image: url(../images/ketab.png);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+div.lamp{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    background-image: url(../images/lamp.png);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+div.atr{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    background-image: url(../images/atr.png);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+div.boomi{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    background-image: url(../images/boomi.png);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+div.offer{
+    width: 1350px;
+    height: 270px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+div.ave{
+    display: inline-block;
+    width: 660px;
+    height: 260px;
+    background-image: url(../images/ave.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    margin-right: 11px;
+}
+div.softlan{
+    display: inline-block;
+    width: 670px;
+    height: 260px;
+    background-image: url(../images/softlan.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+div.popularbrands{
+    width: 1350px;
+    height: 180px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+div.pril{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    background-image: url(../images/pril.png);
+    background-size: cover;
+    margin-left: 30px;
+}
+div.persil{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    background-image: url(../images/persil.png);
+    background-size: cover;
+    margin-left: 50px;
+}
+div.huawei{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    background-image: url(../images/huawei.png);
+    background-size: cover;
+    margin-left: 50px;
+}
+div.samsung{
+    display: inline-block;
+    width: 180px;
+    height: 130px;
+    background-image: url(../images/samsung.jpg);
+    background-size: cover;
+    margin-left: 50px;
+}
+div.kale{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    background-image: url(../images/kale.png);
+    background-size: cover;
+    margin-left: 50px;
+}
+div.mi{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    background-image: url(../images/mi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 50px;
+}
+div.panter{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    background-image: url(../images/panter.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+div.offer2{
+    width: 1350px;
+    height: 270px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+div.bekhar{
+    display: inline-block;
+    width: 660px;
+    height: 260px;
+    background-image: url(../images/bekhar.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    margin-right: 11px;
+}
+div.tajrobe{
+    display: inline-block;
+    width: 670px;
+    height: 260px;
+    background-image: url(../images/tajrobe.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+div.digiplus{
+    width: 1350px;
+    height: 360px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #941B80;
+}
+div.foori{
+    display: inline-block;
+    width: 400px;
+    height: 330px;
+    background-color: white;
+    margin: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+div.hedie{
+    display: inline-block;
+    width: 400px;
+    height: 330px;
+    background-color: white;
+    margin: 15px;
+    margin-left: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.digipluslogo{
+    display: inline-block;
+    width: 180px;
+    height: 64px;
+    background-image: url(../images/digiplus-logo.svg);
+    background-repeat: no-repeat;
+    margin-bottom: 250px;
+    margin-left: 300px;
+}
+div.digiclub{
+    width: 1350px;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #007295;
+    border-radius: 20px;
+}
+div.jayeze{
+    display: inline-block;
+    width: 257px;
+    height: 64px;
+    background-image: url(../images/jayeze.png);
+    background-position:center ;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+div.mission{
+    display: inline-block;
+    width: 257px;
+    height: 64px;
+    background-image: url(../images/missions.png);
+    background-size: contain;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 2px;
+}
+div.lucky-draw{
+    display: inline-block;
+    width: 245px;
+    height: 64px;
+    background-image: url(../images/lucky-draw.png);
+    background-position:center ;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.digiclublogo{
+    display: inline-block;
+    width: 180px;
+    height: 64px;
+    background-image: url(../images/digiclub-logo-white.svg);
+    background-repeat: no-repeat;
+    margin-left: 320px;
+}
+div.koodak{
+    width: 1350px;
+    height: 165px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-image: url(../images/koodak.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+div.readable{
+    width: 1350px;
+    height: 220px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+div.buds{
+    display: inline-block;
+    width: 315px;
+    height: 200px;
+    background-image: url(../images/buds.jpg);
+    background-size: cover;
+    border-radius: 20px ;
+    margin-right: 20px ;
+}
+div.social{
+    display: inline-block;
+    width: 315px;
+    height: 200px;
+    background-image: url(../images/social.jpg);
+    background-size: cover;
+    border-radius: 20px ;
+    margin-right: 20px;
+}
+div.iphone14{
+    display: inline-block;
+    width: 315px;
+    height: 200px;
+    background-image: url(../images/iphone\ 14.jpg);
+    background-size: cover;
+    border-radius: 20px ;
+    margin-right: 20px;
+}
+div.android{
+    display: inline-block;
+    width: 328px;
+    height: 200px;
+    background-image: url(../images/android.jpg);
+    background-size: cover;
+    border-radius: 20px ;
+}
+footer{
+    width: 1400px;
+    height: 80px;
+    margin: auto;
+    background-color: #3C4B6D;
+    border-radius: 10px;
+}
+div.more2{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-image: url(../images/More.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 13px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+div.sibapp{
+    display: inline-block;
+    width: 150px;
+    height: 55px;
+    background-image: url(../images/sib-app.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 13px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+div.myket{
+    display: inline-block;
+    width: 170px;
+    height: 55px;
+    background-image: url(../images/myket.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 13px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+div.bazar3{
+    display: inline-block;
+    width: 170px;
+    height: 55px;
+    background-image: url(../images/coffe-bazzar.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 13px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+div.googleplay{
+    display: inline-block;
+    width: 170px;
+    height: 55px;
+    background-image: url(../images/google-play.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 13px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+div.digikalalogo2{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-image: url(../images/footerlogo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 13px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
